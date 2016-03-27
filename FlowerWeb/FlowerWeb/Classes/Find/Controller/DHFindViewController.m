@@ -7,8 +7,9 @@
 //
 
 #import "DHFindViewController.h"
+#import "UIView+DHAdd.h"
 
-@interface DHFindViewController ()
+@interface DHFindViewController ()<UITableViewDataSource>
 ///左侧tableView数据
 @property(nonatomic,strong)NSArray *leftDataArr ;
 
@@ -25,20 +26,38 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
+    [self creatLeftTableView];
+    self.title = @"分类";
 }
 
 
 #pragma mark --创建左侧的tableView
 -(void)creatLeftTableView{
     UITableView *talbeView = [[UITableView alloc]init];
-    talbeView.frame = CGRectMake(0, 0, 80, <#CGFloat height#>)
-    
-    
-    
-    
+    talbeView.frame = CGRectMake(0, 0, 80, ScreenHeight-self.tabBarController.tabBar.height);
+    talbeView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:talbeView];
 }
 
+#pragma mark --tableView的数据源方法
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.leftDataArr.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    NSString *reuseId = @"tableViewCell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseId];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseId];
+    }
+    
+    cell.textLabel.text = self.leftDataArr[indexPath.row];
+    
+    return cell;
+    
+}
 
 @end
