@@ -23,6 +23,7 @@
 		F96A7ECF1CA7872F00215279 /* DHBuyCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7ECE1CA7872F00215279 /* DHBuyCarViewController.m */; };
 		F96A7ED21CA7874000215279 /* DHFlowerShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7ED11CA7874000215279 /* DHFlowerShowViewController.m */; };
 		F96A7ED51CA7875300215279 /* DHMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7ED41CA7875300215279 /* DHMineViewController.m */; };
+		F99E98ED1CA7C2C80060F02A /* UIView+DHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F99E98EC1CA7C2C80060F02A /* UIView+DHAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,8 @@
 		F96A7ED31CA7875300215279 /* DHMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMineViewController.h; sourceTree = "<group>"; };
 		F96A7ED41CA7875300215279 /* DHMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMineViewController.m; sourceTree = "<group>"; };
 		F96A7F051CA7A01300215279 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F99E98EB1CA7C2C80060F02A /* UIView+DHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DHAdd.h"; sourceTree = "<group>"; };
+		F99E98EC1CA7C2C80060F02A /* UIView+DHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DHAdd.m"; sourceTree = "<group>"; };
 		F9AD77C41CA6D9EC00416AEB /* FlowerWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9AD77D81CA6D9EC00416AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -361,6 +364,8 @@
 		F96A7EB21CA785AE00215279 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				F99E98EB1CA7C2C80060F02A /* UIView+DHAdd.h */,
+				F99E98EC1CA7C2C80060F02A /* UIView+DHAdd.m */,
 				F96A7EC71CA786A000215279 /* FWNetworkTool.h */,
 				F96A7EC81CA786A000215279 /* FWNetworkTool.m */,
 			);
@@ -516,6 +521,7 @@
 				F96A7EB51CA785AE00215279 /* DHTabBarButton.m in Sources */,
 				F96A7EB31CA785AE00215279 /* DHNavigationController.m in Sources */,
 				F96A7EB41CA785AE00215279 /* DHTabBar.m in Sources */,
+				F99E98ED1CA7C2C80060F02A /* UIView+DHAdd.m in Sources */,
 				F96A7EB61CA785AE00215279 /* DHTabBarController.m in Sources */,
 				F96A7EC21CA7867E00215279 /* FWFlower.m in Sources */,
 				F96A7ED51CA7875300215279 /* DHMineViewController.m in Sources */,

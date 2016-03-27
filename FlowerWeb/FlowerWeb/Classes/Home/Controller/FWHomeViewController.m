@@ -8,6 +8,14 @@
 
 #import "FWHomeViewController.h"
 
+@interface FWHomeViewController()
+
+@property (nonatomic, weak) UIView *navView;
+
+@end
+
+
+
 @implementation FWHomeViewController
 
 
@@ -15,6 +23,23 @@
 {
     [super viewDidLoad];
     
+    
+    [self setNav];
+}
+
+
+- (void)setNav
+{
+    // 252 102 33
+    self.navigationController.navigationBar.barTintColor = DHRGB(252, 102, 33);
+    UIView *navView = [[UIView alloc] init];
+    
+    navView.width = ScreenWidth;
+    navView.height = 44;
+    self.navView = navView;
+    
+//    titleView.backgroundColor = [UIColor redColor];
+    self.navigationItem.titleView = navView;
 }
 
 @end
