@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"不行就剁吊,好不好");
 }
 
 - (void)didReceiveMemoryWarning {
