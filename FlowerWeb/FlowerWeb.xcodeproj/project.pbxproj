@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DF840ACB25348079403517E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3D1418D6B86E44E70C7B27 /* libPods.a */; };
+		F96A7EB31CA785AE00215279 /* DHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7EA11CA785AE00215279 /* DHNavigationController.m */; };
+		F96A7EB41CA785AE00215279 /* DHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7EA31CA785AE00215279 /* DHTabBar.m */; };
+		F96A7EB51CA785AE00215279 /* DHTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7EA51CA785AE00215279 /* DHTabBarButton.m */; };
+		F96A7EB61CA785AE00215279 /* DHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7EA71CA785AE00215279 /* DHTabBarController.m */; };
+		F96A7EB91CA785FB00215279 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7EB81CA785FB00215279 /* AppDelegate.m */; };
+		F96A7EBB1CA7860500215279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96A7EBA1CA7860500215279 /* Assets.xcassets */; };
+		F96A7EBD1CA7861900215279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7EBC1CA7861900215279 /* main.m */; };
+		F96A7EC21CA7867E00215279 /* FWFlower.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7EBF1CA7867E00215279 /* FWFlower.m */; };
+		F96A7EC31CA7867E00215279 /* FWHomeFlower.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7EC11CA7867E00215279 /* FWHomeFlower.m */; };
+		F96A7EC61CA7868A00215279 /* FWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7EC51CA7868A00215279 /* FWHomeViewController.m */; };
+		F96A7EC91CA786A000215279 /* FWNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7EC81CA786A000215279 /* FWNetworkTool.m */; };
+		F96A7ECC1CA7871B00215279 /* DHFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7ECB1CA7871B00215279 /* DHFindViewController.m */; };
+		F96A7ECF1CA7872F00215279 /* DHBuyCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7ECE1CA7872F00215279 /* DHBuyCarViewController.m */; };
+		F96A7ED21CA7874000215279 /* DHFlowerShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7ED11CA7874000215279 /* DHFlowerShowViewController.m */; };
+		F96A7ED51CA7875300215279 /* DHMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96A7ED41CA7875300215279 /* DHMineViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A330078074BEE87F7AD9C0E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		573A3C0857A074CB36E82EFB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7E3D1418D6B86E44E70C7B27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96A7EA01CA785AE00215279 /* DHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHNavigationController.h; sourceTree = "<group>"; };
+		F96A7EA11CA785AE00215279 /* DHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHNavigationController.m; sourceTree = "<group>"; };
+		F96A7EA21CA785AE00215279 /* DHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTabBar.h; sourceTree = "<group>"; };
+		F96A7EA31CA785AE00215279 /* DHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTabBar.m; sourceTree = "<group>"; };
+		F96A7EA41CA785AE00215279 /* DHTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTabBarButton.h; sourceTree = "<group>"; };
+		F96A7EA51CA785AE00215279 /* DHTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTabBarButton.m; sourceTree = "<group>"; };
+		F96A7EA61CA785AE00215279 /* DHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTabBarController.h; sourceTree = "<group>"; };
+		F96A7EA71CA785AE00215279 /* DHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTabBarController.m; sourceTree = "<group>"; };
+		F96A7EB71CA785FB00215279 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F96A7EB81CA785FB00215279 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F96A7EBA1CA7860500215279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F96A7EBC1CA7861900215279 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F96A7EBE1CA7867E00215279 /* FWFlower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWFlower.h; sourceTree = "<group>"; };
+		F96A7EBF1CA7867E00215279 /* FWFlower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWFlower.m; sourceTree = "<group>"; };
+		F96A7EC01CA7867E00215279 /* FWHomeFlower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWHomeFlower.h; sourceTree = "<group>"; };
+		F96A7EC11CA7867E00215279 /* FWHomeFlower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWHomeFlower.m; sourceTree = "<group>"; };
+		F96A7EC41CA7868A00215279 /* FWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWHomeViewController.h; sourceTree = "<group>"; };
+		F96A7EC51CA7868A00215279 /* FWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWHomeViewController.m; sourceTree = "<group>"; };
+		F96A7EC71CA786A000215279 /* FWNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWNetworkTool.h; sourceTree = "<group>"; };
+		F96A7EC81CA786A000215279 /* FWNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWNetworkTool.m; sourceTree = "<group>"; };
+		F96A7ECA1CA7871B00215279 /* DHFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFindViewController.h; sourceTree = "<group>"; };
+		F96A7ECB1CA7871B00215279 /* DHFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFindViewController.m; sourceTree = "<group>"; };
+		F96A7ECD1CA7872F00215279 /* DHBuyCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBuyCarViewController.h; sourceTree = "<group>"; };
+		F96A7ECE1CA7872F00215279 /* DHBuyCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHBuyCarViewController.m; sourceTree = "<group>"; };
+		F96A7ED01CA7874000215279 /* DHFlowerShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFlowerShowViewController.h; sourceTree = "<group>"; };
+		F96A7ED11CA7874000215279 /* DHFlowerShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFlowerShowViewController.m; sourceTree = "<group>"; };
+		F96A7ED31CA7875300215279 /* DHMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMineViewController.h; sourceTree = "<group>"; };
+		F96A7ED41CA7875300215279 /* DHMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMineViewController.m; sourceTree = "<group>"; };
+		F96A7F051CA7A01300215279 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F9AD77C41CA6D9EC00416AEB /* FlowerWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AD77D81CA6D9EC00416AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9AD77C11CA6D9EC00416AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF840ACB25348079403517E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B235C57CF2F8DA3C3059D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				573A3C0857A074CB36E82EFB /* Pods.debug.xcconfig */,
+				1A330078074BEE87F7AD9C0E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C0EC847760AE80C0349D169 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E3D1418D6B86E44E70C7B27 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F96A7E8C1CA785AE00215279 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7E8D1CA785AE00215279 /* buyCar */,
+				F96A7E911CA785AE00215279 /* Find */,
+				F96A7E951CA785AE00215279 /* FlowerShow */,
+				F96A7E991CA785AE00215279 /* Home */,
+				F96A7E9D1CA785AE00215279 /* Main */,
+				F96A7EAA1CA785AE00215279 /* Mine */,
+				F96A7EAE1CA785AE00215279 /* Other */,
+				F96A7EB21CA785AE00215279 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F96A7E8D1CA785AE00215279 /* buyCar */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7E8E1CA785AE00215279 /* Controller */,
+				F96A7E8F1CA785AE00215279 /* Model */,
+				F96A7E901CA785AE00215279 /* View */,
+			);
+			path = buyCar;
+			sourceTree = "<group>";
+		};
+		F96A7E8E1CA785AE00215279 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7ECD1CA7872F00215279 /* DHBuyCarViewController.h */,
+				F96A7ECE1CA7872F00215279 /* DHBuyCarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F96A7E8F1CA785AE00215279 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F96A7E901CA785AE00215279 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F96A7E911CA785AE00215279 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7E921CA785AE00215279 /* Controller */,
+				F96A7E931CA785AE00215279 /* Model */,
+				F96A7E941CA785AE00215279 /* View */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		F96A7E921CA785AE00215279 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7ECA1CA7871B00215279 /* DHFindViewController.h */,
+				F96A7ECB1CA7871B00215279 /* DHFindViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F96A7E931CA785AE00215279 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F96A7E941CA785AE00215279 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F96A7E951CA785AE00215279 /* FlowerShow */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7E961CA785AE00215279 /* Controller */,
+				F96A7E971CA785AE00215279 /* Model */,
+				F96A7E981CA785AE00215279 /* View */,
+			);
+			path = FlowerShow;
+			sourceTree = "<group>";
+		};
+		F96A7E961CA785AE00215279 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7ED01CA7874000215279 /* DHFlowerShowViewController.h */,
+				F96A7ED11CA7874000215279 /* DHFlowerShowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F96A7E971CA785AE00215279 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F96A7E981CA785AE00215279 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F96A7E991CA785AE00215279 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7E9A1CA785AE00215279 /* Controller */,
+				F96A7E9B1CA785AE00215279 /* Model */,
+				F96A7E9C1CA785AE00215279 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F96A7E9A1CA785AE00215279 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7EC41CA7868A00215279 /* FWHomeViewController.h */,
+				F96A7EC51CA7868A00215279 /* FWHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F96A7E9B1CA785AE00215279 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7EBE1CA7867E00215279 /* FWFlower.h */,
+				F96A7EBF1CA7867E00215279 /* FWFlower.m */,
+				F96A7EC01CA7867E00215279 /* FWHomeFlower.h */,
+				F96A7EC11CA7867E00215279 /* FWHomeFlower.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F96A7E9C1CA785AE00215279 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F96A7E9D1CA785AE00215279 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7E9E1CA785AE00215279 /* Controller */,
+				F96A7E9F1CA785AE00215279 /* DHTabBarNavController */,
+				F96A7EA81CA785AE00215279 /* Model */,
+				F96A7EA91CA785AE00215279 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F96A7E9E1CA785AE00215279 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F96A7E9F1CA785AE00215279 /* DHTabBarNavController */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7EA01CA785AE00215279 /* DHNavigationController.h */,
+				F96A7EA11CA785AE00215279 /* DHNavigationController.m */,
+				F96A7EA21CA785AE00215279 /* DHTabBar.h */,
+				F96A7EA31CA785AE00215279 /* DHTabBar.m */,
+				F96A7EA41CA785AE00215279 /* DHTabBarButton.h */,
+				F96A7EA51CA785AE00215279 /* DHTabBarButton.m */,
+				F96A7EA61CA785AE00215279 /* DHTabBarController.h */,
+				F96A7EA71CA785AE00215279 /* DHTabBarController.m */,
+			);
+			path = DHTabBarNavController;
+			sourceTree = "<group>";
+		};
+		F96A7EA81CA785AE00215279 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F96A7EA91CA785AE00215279 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F96A7EAA1CA785AE00215279 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7EAB1CA785AE00215279 /* Controller */,
+				F96A7EAC1CA785AE00215279 /* Model */,
+				F96A7EAD1CA785AE00215279 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F96A7EAB1CA785AE00215279 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7ED31CA7875300215279 /* DHMineViewController.h */,
+				F96A7ED41CA7875300215279 /* DHMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F96A7EAC1CA785AE00215279 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F96A7EAD1CA785AE00215279 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F96A7EAE1CA785AE00215279 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7EBC1CA7861900215279 /* main.m */,
+				F96A7EBA1CA7860500215279 /* Assets.xcassets */,
+				F96A7EB71CA785FB00215279 /* AppDelegate.h */,
+				F96A7EB81CA785FB00215279 /* AppDelegate.m */,
+				F96A7EAF1CA785AE00215279 /* Controller */,
+				F96A7EB01CA785AE00215279 /* Model */,
+				F96A7EB11CA785AE00215279 /* View */,
+				F96A7F051CA7A01300215279 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F96A7EAF1CA785AE00215279 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F96A7EB01CA785AE00215279 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F96A7EB11CA785AE00215279 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F96A7EB21CA785AE00215279 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7EC71CA786A000215279 /* FWNetworkTool.h */,
+				F96A7EC81CA786A000215279 /* FWNetworkTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F9AD77BB1CA6D9EC00416AEB = {
+			isa = PBXGroup;
+			children = (
+				F9AD77C61CA6D9EC00416AEB /* FlowerWeb */,
+				F9AD77C51CA6D9EC00416AEB /* Products */,
+				15B235C57CF2F8DA3C3059D8 /* Pods */,
+				3C0EC847760AE80C0349D169 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9AD77C51CA6D9EC00416AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9AD77C41CA6D9EC00416AEB /* FlowerWeb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9AD77C61CA6D9EC00416AEB /* FlowerWeb */ = {
+			isa = PBXGroup;
+			children = (
+				F96A7E8C1CA785AE00215279 /* Classes */,
+				F9AD77D81CA6D9EC00416AEB /* Info.plist */,
+			);
+			path = FlowerWeb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9AD77C31CA6D9EC00416AEB /* FlowerWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9AD77DB1CA6D9EC00416AEB /* Build configuration list for PBXNativeTarget "FlowerWeb" */;
+			buildPhases = (
+				A8C56013DE33F449F49FDCB3 /* Check Pods Manifest.lock */,
+				F9AD77C01CA6D9EC00416AEB /* Sources */,
+				F9AD77C11CA6D9EC00416AEB /* Frameworks */,
+				F9AD77C21CA6D9EC00416AEB /* Resources */,
+				DDFDC0D6EBD57272F2F63A03 /* Embed Pods Frameworks */,
+				9E0B4D87B3145A3938A2D3E1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerWeb;
+			productName = FlowerWeb;
+			productReference = F9AD77C41CA6D9EC00416AEB /* FlowerWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9AD77BC1CA6D9EC00416AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = DH;
+				TargetAttributes = {
+					F9AD77C31CA6D9EC00416AEB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F9AD77BF1CA6D9EC00416AEB /* Build configuration list for PBXProject "FlowerWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9AD77BB1CA6D9EC00416AEB;
+			productRefGroup = F9AD77C51CA6D9EC00416AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9AD77C31CA6D9EC00416AEB /* FlowerWeb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9AD77C21CA6D9EC00416AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96A7EBB1CA7860500215279 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E0B4D87B3145A3938A2D3E1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C56013DE33F449F49FDCB3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFDC0D6EBD57272F2F63A03 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9AD77C01CA6D9EC00416AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96A7EB51CA785AE00215279 /* DHTabBarButton.m in Sources */,
+				F96A7EB31CA785AE00215279 /* DHNavigationController.m in Sources */,
+				F96A7EB41CA785AE00215279 /* DHTabBar.m in Sources */,
+				F96A7EB61CA785AE00215279 /* DHTabBarController.m in Sources */,
+				F96A7EC21CA7867E00215279 /* FWFlower.m in Sources */,
+				F96A7ED51CA7875300215279 /* DHMineViewController.m in Sources */,
+				F96A7EC61CA7868A00215279 /* FWHomeViewController.m in Sources */,
+				F96A7EBD1CA7861900215279 /* main.m in Sources */,
+				F96A7EC91CA786A000215279 /* FWNetworkTool.m in Sources */,
+				F96A7ECF1CA7872F00215279 /* DHBuyCarViewController.m in Sources */,
+				F96A7ECC1CA7871B00215279 /* DHFindViewController.m in Sources */,
+				F96A7ED21CA7874000215279 /* DHFlowerShowViewController.m in Sources */,
+				F96A7EC31CA7867E00215279 /* FWHomeFlower.m in Sources */,
+				F96A7EB91CA785FB00215279 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9AD77D91CA6D9EC00416AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9AD77DA1CA6D9EC00416AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9AD77DC1CA6D9EC00416AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573A3C0857A074CB36E82EFB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = FlowerWeb/Classes/Other/PrefixHeader.pch;
+				INFOPLIST_FILE = FlowerWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.czu.FlowerWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9AD77DD1CA6D9EC00416AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A330078074BEE87F7AD9C0E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = FlowerWeb/Classes/Other/PrefixHeader.pch;
+				INFOPLIST_FILE = FlowerWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.czu.FlowerWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9AD77BF1CA6D9EC00416AEB /* Build configuration list for PBXProject "FlowerWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AD77D91CA6D9EC00416AEB /* Debug */,
+				F9AD77DA1CA6D9EC00416AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9AD77DB1CA6D9EC00416AEB /* Build configuration list for PBXNativeTarget "FlowerWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AD77DC1CA6D9EC00416AEB /* Debug */,
+				F9AD77DD1CA6D9EC00416AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9AD77BC1CA6D9EC00416AEB /* Project object */;
+}
