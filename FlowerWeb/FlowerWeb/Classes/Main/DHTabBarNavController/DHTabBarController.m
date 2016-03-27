@@ -57,10 +57,10 @@
 {
     
     [self setupChildViewControllerWithClass:[FWHomeViewController class] andNomalImageName:@"ico_nav_homepage" andNaVTitle:@"首页"];
-    [self setupChildViewControllerWithClass:[FWHomeViewController class] andNomalImageName:@"ico_nav_category" andNaVTitle:@"分类"];
-    [self setupChildViewControllerWithClass:[FWHomeViewController class] andNomalImageName:@"ico_nav_myflower" andNaVTitle:@"花现"];
-    [self setupChildViewControllerWithClass:[FWHomeViewController class] andNomalImageName:@"ico_nav_shoppingcart" andNaVTitle:@"购物车"];
-    [self setupChildViewControllerWithClass:[FWHomeViewController class] andNomalImageName:@"ico_nav_more" andNaVTitle:@"更多"];
+    [self setupChildViewControllerWithClass:[DHFindViewController class] andNomalImageName:@"ico_nav_category" andNaVTitle:@"分类"];
+    [self setupChildViewControllerWithClass:[DHFlowerShowViewController class] andNomalImageName:@"ico_nav_myflower" andNaVTitle:@"花现"];
+    [self setupChildViewControllerWithClass:[DHBuyCarViewController class] andNomalImageName:@"ico_nav_shoppingcart" andNaVTitle:@"购物车"];
+    [self setupChildViewControllerWithClass:[DHMineViewController class] andNomalImageName:@"ico_nav_more" andNaVTitle:@"更多"];
     
 }
 

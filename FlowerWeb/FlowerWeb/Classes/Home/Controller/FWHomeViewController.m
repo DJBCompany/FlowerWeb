@@ -7,6 +7,7 @@
 //
 
 #import "FWHomeViewController.h"
+#import <YYLabel.h>
 
 @interface FWHomeViewController()
 
@@ -40,6 +41,16 @@
     
 //    titleView.backgroundColor = [UIColor redColor];
     self.navigationItem.titleView = navView;
+    
+    YYLabel *label = [YYLabel new];
+    
+    label.text = @"HUA";
+    label.frame = CGRectMake(0, 0, 200, self.navView.height);
+    [self.navView addSubview:label];
+    
+    // 1.创建一个属性文本
+    NSMutableAttributedString *str1 = [[NSMutableAttributedString alloc] initWithString:@"HUA"];
+    
 }
 
 @end

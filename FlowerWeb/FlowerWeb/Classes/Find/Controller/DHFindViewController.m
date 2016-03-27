@@ -33,7 +33,7 @@
 #pragma mark --创建左侧的tableView
 -(void)creatLeftTableView{
     UITableView *talbeView = [[UITableView alloc]init];
-    talbeView.frame = CGRectMake(0, 0, 80, <#CGFloat height#>)
+//    talbeView.frame = CGRectMake(0, 0, 80, <#CGFloat height#>)
     
     
     
