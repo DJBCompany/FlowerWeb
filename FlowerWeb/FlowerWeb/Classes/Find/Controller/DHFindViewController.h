@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DHFindViewController : UITableViewController
+@interface DHFindViewController : UIViewController
 
 @end
